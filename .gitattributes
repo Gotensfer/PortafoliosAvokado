@@ -1,0 +1,16 @@
+# Relacionados a imágenes
+*.png
+*.jpg
+*.svg
+
+# Relacionados a videos
+*.mp4
+*.mov
+*.flv
+*.avi
+
+# Relacionados a audios
+*.wav
+*.mp3
+*.otg
+*.tcz
