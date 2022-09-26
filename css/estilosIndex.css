@@ -13,14 +13,12 @@ body{
 }
 
 .OB_Contenedor{
-    display: relative;
-    width: 100%;
+    display: grid;    
     margin:0 auto;
 }
 
 .sing_in_btn{
     display: relative;
-    left:0px;
-    bottom:0px;
+    width: 0%;
 }
 
