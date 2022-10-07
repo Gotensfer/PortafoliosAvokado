@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+    background-color: #414249;
+}
+
+.mainTitle {
+    max-width: 100%;
+    height: auto;
+}
+
+.sing_in_btn {
+    padding: 1em 2.1em 1.1em;
+    border-radius: 3px;
+    margin: 8px 8px 8px 8px;
+    color: #fbdedb;
+    background-color: #fbdedb;
+    display: inline-block;
+    background: transparent;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    font-size: .85em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+
+    border:white solid 2px;
+
+}
+.sing_in_btn:hover, .sing_in_btn:focus {
+    opacity: 0.8;
+}
+.sing_in_btn:active {
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    -o-transform: scale(0.80);
+    transform: scale(0.80);
+}
+.sing_in_btn.circular {
+  border-radius: 1em !important;
+}
+
+.Sanity{
+    position: relative;
+
+    text-align: center;
+}
