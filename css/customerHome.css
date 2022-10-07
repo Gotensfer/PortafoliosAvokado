@@ -6,3 +6,8 @@ body {
 .FirstView {
     width: 100%;
 }
+
+.UserInfo{
+    border-radius: 10%;
+    align-content: center;
+}
