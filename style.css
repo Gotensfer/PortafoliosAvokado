@@ -22,6 +22,12 @@
     background-size: cover;
     position: relative;
 }
+.bgimage4 {
+    height: 100vh;
+    background: url('img/Rapido/CamCam_Fondo.PNG');
+    background-size: cover;
+    position: relative;
+}
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
