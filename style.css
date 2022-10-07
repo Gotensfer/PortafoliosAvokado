@@ -36,10 +36,9 @@
 }
 /* about section image css */
 .imageAboutPage {
-    width: 50%;
-    position: absolute;
-    max-width: 100%;
-    height: auto;
+    width: 25%;
+    max-height: 100%;
+
 }
 
 .imageAboutPage2 {
@@ -48,10 +47,6 @@
     height: auto;
 }
 
-.row mt-4 {
-    display: flex;
-    justify-content: space-between;
-}
 /* services section css */
 .servicesText.card {
     height: 280px;
