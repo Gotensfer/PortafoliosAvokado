@@ -6,15 +6,69 @@ body{
 
 .mainTitle {
     max-width: 100%;
-    height: auto;
+    height: center;
+    text-align: center;
+    margin-top: 10px;
 }
 
-.sing_in_btn {
+
+.b1{
+    text-align: center;
+}
+
+.b2{
+    text-align: center;
+}
+
+.breath{
+    border: 3px transparent solid;
+    padding: 14%;
+}
+
+.sign_in_btn {
     padding: 1em 2.1em 1.1em;
     border-radius: 3px;
     margin: 8px 8px 8px 8px;
-    color: #fbdedb;
-    background-color: #fbdedb;
+    color: white;
+    background-color: white;
+    display: inline-block;
+    background: transparent;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    font-size: .85em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+
+    border:white solid 2px;
+
+    align-self: auto;
+}
+.sing_in_btn:hover, .sing_in_btn:focus {
+    opacity: 0.8;
+}
+.sing_in_btn:active {
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    -o-transform: scale(0.80);
+    transform: scale(0.80);
+}
+.sign_in_btn.circular {
+  border-radius: 1em !important;
+}
+
+.log_in_btn {
+    padding: 1em 2.1em 1.1em;
+    border-radius: 3px;
+    margin: 8px 8px 8px 8px;
+    color: white;
+    background-color: white;
     display: inline-block;
     background: transparent;
     -webkit-transition: 0.3s;
@@ -32,22 +86,16 @@ body{
     border:white solid 2px;
 
 }
-.sing_in_btn:hover, .sing_in_btn:focus {
+.log_in_btn:hover, .sing_in_btn:focus {
     opacity: 0.8;
 }
-.sing_in_btn:active {
+.log_in_btn:active {
     -webkit-transform: scale(0.80);
     -moz-transform: scale(0.80);
     -ms-transform: scale(0.80);
     -o-transform: scale(0.80);
     transform: scale(0.80);
 }
-.sing_in_btn.circular {
+.log_in_btn.circular {
   border-radius: 1em !important;
-}
-
-.Sanity{
-    position: relative;
-
-    text-align: center;
 }
