@@ -5,10 +5,22 @@
 
 /* hero background image */
 .bgimage {
-    height:100vh;
-    background: url('images/heroImage.jpeg');
-    background-size:cover;
-    position:relative;
+    height: 100vh;
+    background: url('img/Rapido/Meraki_fondo.png');
+    background-size: cover;
+    position: relative;
+}
+.bgimage2 {
+    height: 100vh;
+    background: url('img/Rapido/NicoArt21_6.jpg');
+    background-size: cover;
+    position: relative;
+}
+.bgimage3 {
+    height: 100vh;
+    background: url('img/Rapido/KarenLema_3 (1).jpg');
+    background-size: cover;
+    position: relative;
 }
 /* text css above hero image*/
 .hero_title {
@@ -47,9 +59,31 @@
     height: auto;
 }
 
-.textoabout{
-    text-align:center;
+/* default button */
+.btn-default {
+    background-color: #FFF;
+    color: #7610F7;
+    border-color: #7610F7;
+    border-radius: 25px;
 }
+
+    .btn-default:hover {
+        background-color: #FFF;
+        color: #7610F7;
+        border-color: #7610F7;
+    }
+
+    .btn-default:focus {
+        background-color: #FFF;
+        color: #7610F7;
+        border-color: #7610F7;
+    }
+
+    .btn-default:active {
+        background-color: #FFF;
+        color: #7610F7;
+        border-color: #7610F7;
+    }
 
 /* services section css */
 .servicesText.card {
