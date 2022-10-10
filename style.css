@@ -28,6 +28,12 @@
     background-size: cover;
     position: relative;
 }
+.bgimageDefault{
+    height: 50vh;
+    background: url('img/Rapido/DefaultBG.PNG');
+    background-size: cover;
+    position: relative;
+}
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
@@ -126,4 +132,30 @@
 #footer {
     background-color: #808080;
     text-align: center;
+}
+
+.inputBar{
+    width: 100%;
+    height: 100%;
+
+    text-align:justify;
+    display: inline-block;
+
+    color:#7610F7;
+    border-color: #7610F7;
+
+    border-radius: 1em;
+}
+
+.juanferText{
+    color: #7610F7;
+}
+
+.breathSpace{
+    margin-top: 10px;
+}
+
+.purpleBorder{
+    
+    border: #7610F7 2px solid;
 }
