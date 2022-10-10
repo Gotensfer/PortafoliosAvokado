@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.logo{
+    max-width: 100%;
+    height: center;
+    text-align: center;
+}
+
+.LogInContainer{
+    position: fixed;
+    border: 3px green solid;
+
+    left: 33%;
+    right: 33%;
+    top: 33%;
+    bottom: 33%;
+}
+
+.htext{
+    font-family: 'Quicksand', sans-serif;
+    color: #7510f7;
+}
+
+.mail{
+    border: 3px red solid;
+    margin: 5px 5px 5px 5px;
+
+    position: relative;
+    width: 97%;
+    height: 44.5%;
+
+}
+
+.password{
+    border: 3px purple solid;
+    margin: 5px 5px 5px 5px;
+
+    width: 97%;
+    height: 44.5%;
+}

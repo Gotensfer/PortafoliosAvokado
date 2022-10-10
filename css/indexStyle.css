@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+h1 {
+  color: #444;
+}
+
 body{
     background-color: #414249;
 }
@@ -8,24 +12,16 @@ body{
     max-width: 100%;
     height: center;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
-
-.b1{
-    text-align: center;
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.b2{
-    text-align: center;
-}
-
-.breath{
-    border: 3px transparent solid;
-    padding: 14%;
-}
-
-.sign_in_btn {
+.btn {
     padding: 1em 2.1em 1.1em;
     border-radius: 3px;
     margin: 8px 8px 8px 8px;
@@ -37,65 +33,87 @@ body{
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
-    font-family: 'Quicksand', sans-serif;
+    font-family: sans-serif;
     font-weight: 800;
     font-size: .85em;
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
     position: relative;
-
-    border:white solid 2px;
-
-    align-self: auto;
 }
-.sing_in_btn:hover, .sing_in_btn:focus {
+.btn:hover, .btn:focus {
     opacity: 0.8;
 }
-.sing_in_btn:active {
+.btn:active {
     -webkit-transform: scale(0.80);
     -moz-transform: scale(0.80);
     -ms-transform: scale(0.80);
     -o-transform: scale(0.80);
     transform: scale(0.80);
 }
-.sign_in_btn.circular {
-  border-radius: 1em !important;
+.btn.block {
+    display: block !important;
 }
-
-.log_in_btn {
-    padding: 1em 2.1em 1.1em;
-    border-radius: 3px;
-    margin: 8px 8px 8px 8px;
-    color: white;
-    background-color: white;
-    display: inline-block;
-    background: transparent;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 800;
-    font-size: .85em;
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration: none;
-    position: relative;
-
+.btn.circular {
+    border-radius: 1.5em !important;
     border:white solid 2px;
+}
 
+.bt1{
+    position: fixed;
+    bottom: 10%;
+
+    min-width: 10%;
+    max-width: 420px;
+
+    font-size: 3vmin;
 }
-.log_in_btn:hover, .sing_in_btn:focus {
-    opacity: 0.8;
+
+.bt2{
+    position: fixed;
+    bottom: 10%;
+
+    min-width: 10%;
+    max-width: 300px;
+
+    font-size: 3vmin;
+
+    margin-bottom: 15vmin;
+    margin-top: auto;
 }
-.log_in_btn:active {
-    -webkit-transform: scale(0.80);
-    -moz-transform: scale(0.80);
-    -ms-transform: scale(0.80);
-    -o-transform: scale(0.80);
-    transform: scale(0.80);
+
+/* Colours */
+.red {
+    background-color: #d55050;
 }
-.log_in_btn.circular {
-  border-radius: 1em !important;
+.teal {
+    background-color: #50d5a1;
+}
+.sky {
+    background-color: #6698cb;
+}
+.black {
+    background-color: #5c6166;
+}
+.gray {
+    color: black;
+    background-color: #d2d2d2;
+}
+.orange {
+    background-color: #e96633;
+}
+.pink {
+    background-color: #cb99c5;
+}
+.green {
+    background-color: #5bbd72;
+}
+.blue {
+    background-color: #7abedf;
+}
+.yellow {
+    background-color: #ecc92b;
+}
+.purple {
+    background-color: #564f8a;
 }
