@@ -13,6 +13,15 @@ body{
     height: center;
     text-align: center;
     margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    position: fixed;
+    bottom: 50%;
 }
 
 .container{
@@ -61,22 +70,22 @@ body{
 
 .bt1{
     position: fixed;
-    bottom: 10%;
+    bottom: 5%;
 
     min-width: 10%;
     max-width: 420px;
 
-    font-size: 3vmin;
+    font-size: 2.5vmin;
 }
 
 .bt2{
     position: fixed;
-    bottom: 10%;
+    bottom: 5%;
 
     min-width: 10%;
     max-width: 300px;
 
-    font-size: 3vmin;
+    font-size: 2.5vmin;
 
     margin-bottom: 15vmin;
     margin-top: auto;
