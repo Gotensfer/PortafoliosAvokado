@@ -59,6 +59,12 @@
 #contact {
     padding-bottom: 4rem;
 }
+
+.topImage {
+    width: 40%;
+    max-height: 100%;
+    position: relative;
+}
 /* about section image css */
 .imageAboutPage {
     width: 25%;
